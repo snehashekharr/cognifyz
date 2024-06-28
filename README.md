@@ -1,5 +1,4 @@
 # Cognifyz Technologies Internship
-This repository shows the internship tasks I have completed for Cognifyz Technologies.
 LEVEL 1 TASK 2: SIMPLE WEBPAGE
 I have successfully completed the following tasks:
 1. Developed a basic button that changes its color when clicked using JavaScript.
