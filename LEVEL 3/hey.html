@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery and Slideshow</title>
+    <link rel="stylesheet" href="hey.css">
+</head>
+<body>
+   <h1 class="gallery-heading">Image Gallery Section</h1>
+    <div class="gallery-container">
+    <div class="gallery">
+        <img src="work.jpeg" alt="Image 1" class="work">
+        <img src="work1.jpeg" alt="Image 2" class="work">
+        <img src="work2.jpeg" alt="Image 3" class="work">
+        
+    </div>
+    <div class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Image Slideshow Section -->
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="work.jpeg" style="width:100%">
+        </div>
+        <div class="slide fade">
+            <img src="work1.jpeg" style="width:100%">
+        </div>
+        <div class="slide fade">
+            <img src="work2.jpeg" style="width:100%">
+        </div>
+        <!-- Add more slides as needed -->
+    </div>
+
+    <script src="hey.js"></script>
+</body>
+</html>
